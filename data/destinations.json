@@ -1,0 +1,266 @@
+[
+  {
+    "slug": "rishikesh",
+    "name": "Rishikesh",
+    "tagline": "River journeys, yoga and adventure",
+    "highlights": [
+      "Spirituality",
+      "rafting",
+      "yoga",
+      "riverside walks"
+    ],
+    "bestTime": "February\u2013May and September\u2013November are often pleasant; monsoon river activities may be restricted.",
+    "gettingThere": "Road from Haridwar/Dehradun; nearest major rail access is Rishikesh; Jolly Grant Airport serves the region.",
+    "lat": 30.0869,
+    "lon": 78.2676
+  },
+  {
+    "slug": "haridwar",
+    "name": "Haridwar",
+    "tagline": "Ganga ghats and sacred traditions",
+    "highlights": [
+      "Har Ki Pauri",
+      "Ganga Aarti",
+      "temples",
+      "local markets"
+    ],
+    "bestTime": "October\u2013April is often comfortable; festival dates can be very busy.",
+    "gettingThere": "Well connected by rail and road; Dehradun airport is the nearest major airport.",
+    "lat": 29.9457,
+    "lon": 78.1642
+  },
+  {
+    "slug": "dehradun",
+    "name": "Dehradun",
+    "tagline": "A relaxed valley city and gateway to the hills",
+    "highlights": [
+      "Forest Research Institute",
+      "Robber\u2019s Cave",
+      "local food"
+    ],
+    "bestTime": "March\u2013June and September\u2013November are commonly pleasant.",
+    "gettingThere": "Jolly Grant Airport, Dehradun railway station and road links.",
+    "lat": 30.3165,
+    "lon": 78.0322
+  },
+  {
+    "slug": "mussoorie",
+    "name": "Mussoorie",
+    "tagline": "Mountain viewpoints and colonial-era hill-town walks",
+    "highlights": [
+      "Camel\u2019s Back Road",
+      "viewpoints",
+      "nearby waterfalls"
+    ],
+    "bestTime": "April\u2013June and September\u2013November; monsoon conditions can affect roads and trails.",
+    "gettingThere": "Road from Dehradun; nearest rail station and airport are in Dehradun.",
+    "lat": 30.4598,
+    "lon": 78.0644
+  },
+  {
+    "slug": "nainital",
+    "name": "Nainital",
+    "tagline": "A lake town surrounded by Kumaon hills",
+    "highlights": [
+      "Naini Lake",
+      "Naina Devi Temple",
+      "viewpoints"
+    ],
+    "bestTime": "March\u2013June and October\u2013November; winter can be cold.",
+    "gettingThere": "Road from Kathgodam railhead; Pantnagar is the nearest commercial airport.",
+    "lat": 29.3919,
+    "lon": 79.4542
+  },
+  {
+    "slug": "auli",
+    "name": "Auli",
+    "tagline": "High Himalayan views and seasonal snow sports",
+    "highlights": [
+      "Ropeway when operating",
+      "ski slopes",
+      "mountain walks"
+    ],
+    "bestTime": "Winter for snow when conditions allow; late spring and autumn for views.",
+    "gettingThere": "Road to Joshimath then local transfer; check ropeway and road status before travel.",
+    "lat": 30.5285,
+    "lon": 79.566
+  },
+  {
+    "slug": "chopta",
+    "name": "Chopta",
+    "tagline": "Alpine meadows and trekking access",
+    "highlights": [
+      "Tungnath trek",
+      "Chandrashila route",
+      "birdwatching"
+    ],
+    "bestTime": "Spring and autumn are popular; winter access may be weather dependent.",
+    "gettingThere": "Road transfer from Rishikesh/Haridwar via mountain towns; allow flexible travel time.",
+    "lat": 30.4868,
+    "lon": 79.2085
+  },
+  {
+    "slug": "kedarnath",
+    "name": "Kedarnath",
+    "tagline": "A high-altitude pilgrimage in the Garhwal Himalaya",
+    "highlights": [
+      "Kedarnath Temple",
+      "Gaurikund\u2013Kedarnath trek"
+    ],
+    "bestTime": "Seasonal access; dates, registration, weather and route conditions must be checked officially.",
+    "gettingThere": "Road to Sonprayag/Gaurikund, then trek or authorized options subject to current rules.",
+    "lat": 30.7346,
+    "lon": 79.0669
+  },
+  {
+    "slug": "badrinath",
+    "name": "Badrinath",
+    "tagline": "A revered shrine on the Alaknanda River",
+    "highlights": [
+      "Badrinath Temple",
+      "Mana village",
+      "nearby viewpoints"
+    ],
+    "bestTime": "Seasonal access; verify opening dates and road/weather advisories.",
+    "gettingThere": "Mountain road via Joshimath; road conditions and seasonal access vary.",
+    "lat": 30.7433,
+    "lon": 79.4938
+  },
+  {
+    "slug": "gangotri",
+    "name": "Gangotri",
+    "tagline": "A pilgrimage town in the upper Bhagirathi valley",
+    "highlights": [
+      "Gangotri Temple",
+      "river valley walks"
+    ],
+    "bestTime": "Seasonal access; snow, landslides and weather can affect travel.",
+    "gettingThere": "Road journey via Uttarkashi; verify current road and temple status.",
+    "lat": 30.9949,
+    "lon": 78.9398
+  },
+  {
+    "slug": "yamunotri",
+    "name": "Yamunotri",
+    "tagline": "A Himalayan pilgrimage reached on foot",
+    "highlights": [
+      "Yamunotri Temple",
+      "hot springs near the shrine"
+    ],
+    "bestTime": "Seasonal access; confirm official opening dates and trek conditions.",
+    "gettingThere": "Road to the trek access area, then a mountain walk; conditions vary.",
+    "lat": 31.014,
+    "lon": 78.46
+  },
+  {
+    "slug": "valley-of-flowers",
+    "name": "Valley of Flowers",
+    "tagline": "A seasonal alpine valley known for wildflowers",
+    "highlights": [
+      "Guided hikes",
+      "alpine scenery",
+      "Hemkund Sahib region"
+    ],
+    "bestTime": "Usually a monsoon-season bloom destination; access depends on official park opening and weather.",
+    "gettingThere": "Reach Govindghat by road, then trek via Ghangaria; permits and park rules apply.",
+    "lat": 30.728,
+    "lon": 79.605
+  },
+  {
+    "slug": "jim-corbett",
+    "name": "Jim Corbett National Park",
+    "tagline": "Forest landscapes and regulated wildlife safaris",
+    "highlights": [
+      "Authorized safari zones",
+      "nature interpretation"
+    ],
+    "bestTime": "Cooler months are popular; zones and seasonal closures vary.",
+    "gettingThere": "Road/rail connections via Ramnagar; safari bookings must use official channels.",
+    "lat": 29.53,
+    "lon": 78.7747
+  },
+  {
+    "slug": "tehri-lake",
+    "name": "Tehri Lake",
+    "tagline": "A vast reservoir framed by mountain scenery",
+    "highlights": [
+      "Approved water activities",
+      "viewpoints",
+      "lakeside visits"
+    ],
+    "bestTime": "Season and activity availability vary; follow local safety guidance.",
+    "gettingThere": "Road transfers from Rishikesh/Dehradun; confirm operators and activity permissions.",
+    "lat": 30.381,
+    "lon": 78.48
+  },
+  {
+    "slug": "lansdowne",
+    "name": "Lansdowne",
+    "tagline": "Quiet pine forests and a peaceful hill escape",
+    "highlights": [
+      "Forest walks",
+      "viewpoints",
+      "heritage sites"
+    ],
+    "bestTime": "March\u2013June and September\u2013November are often pleasant.",
+    "gettingThere": "Road access via Kotdwar; check hill-road conditions.",
+    "lat": 29.837,
+    "lon": 78.687
+  },
+  {
+    "slug": "almora",
+    "name": "Almora",
+    "tagline": "Kumaon culture, ridgelines and traditional markets",
+    "highlights": [
+      "Bright End Corner",
+      "temples",
+      "local crafts"
+    ],
+    "bestTime": "March\u2013June and September\u2013November are commonly pleasant.",
+    "gettingThere": "Road connections from Kathgodam and nearby Kumaon towns.",
+    "lat": 29.5971,
+    "lon": 79.6591
+  },
+  {
+    "slug": "munsiyari",
+    "name": "Munsiyari",
+    "tagline": "Remote mountain scenery and high Himalayan views",
+    "highlights": [
+      "Viewpoints",
+      "local culture",
+      "trekking with local guidance"
+    ],
+    "bestTime": "Spring and autumn often offer clearer conditions; winter can limit access.",
+    "gettingThere": "Long mountain road journey; plan buffer time and check conditions.",
+    "lat": 30.069,
+    "lon": 80.238
+  },
+  {
+    "slug": "pithoragarh",
+    "name": "Pithoragarh",
+    "tagline": "A Kumaon valley town and regional base",
+    "highlights": [
+      "Valley viewpoints",
+      "temples",
+      "nearby mountain journeys"
+    ],
+    "bestTime": "Spring and autumn are often comfortable.",
+    "gettingThere": "Road access from Kumaon hubs; allow time for mountain routes.",
+    "lat": 29.5833,
+    "lon": 80.2167
+  },
+  {
+    "slug": "chakrata",
+    "name": "Chakrata",
+    "tagline": "Forest trails, cliffs and quieter mountain scenery",
+    "highlights": [
+      "Tiger Falls",
+      "forest walks",
+      "viewpoints"
+    ],
+    "bestTime": "April\u2013June and September\u2013November; monsoon trails can be slippery.",
+    "gettingThere": "Road access from Dehradun; check weather and local access conditions.",
+    "lat": 30.703,
+    "lon": 77.866
+  }
+]

@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Discover Uttarakhand with Pahadi Trails: spiritual journeys, hill station holidays, nature and local culture.">
+  <meta name="theme-color" content="#073b34">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Pahadi Trails — Discover Uttarakhand">
+  <meta property="og:description" content="Explore Uttarakhand destinations, journeys and local travel ideas.">
+  <meta property="og:image"
+    content="https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=80">
+  <link rel="canonical" href="https://example.com/">
+  <title>Pahadi Trails — Discover Uttarakhand</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon/favicon.svg">
+</head>
+
+<body>
+  <div class="announcement">
+    <div class="container d-flex justify-content-between"><span><i class="bi bi-compass me-2"></i>Find your own pace in
+        the Himalayas</span><span class="d-none d-md-inline">Travel thoughtfully · Discover locally</span></div>
+  </div>
+  <nav class="navbar navbar-expand-xl navbar-dark site-nav">
+    <div class="container"><a class="navbar-brand brand" href="index.html"><span class="brand-symbol"><i
+            class="bi bi-mountains"></i></span><span>Pahadi <b>Trails</b><small>DISCOVER
+            UTTARAKHAND</small></span></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation"><span
+          class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-xl-center gap-xl-1">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="destinations.html" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Explore</a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="destinations.html">All Destinations</a></li>
+              <li><a class="dropdown-item" href="destination-rishikesh.html">Rishikesh</a></li>
+              <li><a class="dropdown-item" href="destination-kedarnath.html">Kedarnath</a></li>
+              <li><a class="dropdown-item" href="destination-badrinath.html">Badrinath</a></li>
+              <li><a class="dropdown-item" href="destination-nainital.html">Nainital</a></li>
+              <li><a class="dropdown-item" href="destination-mussoorie.html">Mussoorie</a></li>
+              <li><a class="dropdown-item" href="map.html">Interactive Map</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="packages.html" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Journeys</a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="packages.html">Tour Packages</a></li>
+              <li><a class="dropdown-item" href="adventure.html">Adventure Activities</a></li>
+              <li><a class="dropdown-item" href="char-dham.html">Char Dham Yatra</a></li>
+              <li><a class="dropdown-item" href="trekking.html">Trekking & Expeditions</a></li>
+              <li><a class="dropdown-item" href="wildlife.html">Wildlife & Parks</a></li>
+              <li><a class="dropdown-item" href="stays.html">Hotels & Stays</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="blog.html" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Inspiration</a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="blog.html">Travel Guide & Blog</a></li>
+              <li><a class="dropdown-item" href="gallery.html">Photo Gallery</a></li>
+              <li><a class="dropdown-item" href="faqs.html">FAQs</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item ms-xl-2"><a class="btn btn-gold btn-sm px-3" href="contact.html"><i
+                class="bi bi-send me-1"></i> Plan my trip</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero" id="home" aria-label="Discover Uttarakhand">
+      <div class="hero-image" id="heroImage" aria-hidden="true"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-orb orb-one"></div>
+      <div class="hero-orb orb-two"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy reveal">
+          <div class="eyebrow eyebrow-light"><span></span> MOUNTAINS · PILGRIMAGE · NATURE · CULTURE</div>
+          <div class="hero-slide-kicker" id="heroKicker">THE HIMALAYAN HIGHLANDS</div>
+          <h1 id="heroTitle">Where the <em>Himalayas</em> touch the sky.</h1>
+          <p id="heroDescription">Follow dramatic mountain ridgelines, quiet valleys and unforgettable Himalayan
+            horizons.</p>
+          <div class="hero-actions"><a class="btn btn-gold btn-lg" id="heroPrimary" href="contact.html">Plan your
+              mountain escape <i class="bi bi-send ms-2"></i></a><a class="btn btn-ghost btn-lg" id="heroSecondary"
+              href="destinations.html"><i class="bi bi-compass me-2"></i>Explore destinations</a></div>
+          <div class="hero-proof"><span><i class="bi bi-signpost-split"></i> Personalised trip ideas</span><span><i
+                class="bi bi-people"></i> Local provider connections</span></div>
+        </div>
+        <div class="hero-script" aria-hidden="true"><span class="script-line"></span><span>Mountains<br>call
+            you.</span><i class="bi bi-stars"></i></div>
+        <a class="scroll-cue" href="#travel-types"><span class="mouse"><i></i></span><small>SCROLL TO
+            EXPLORE</small></a>
+        <div class="hero-counter"><button class="hero-arrow" id="heroPrev" aria-label="Previous featured destination"><i
+              class="bi bi-arrow-left"></i></button><b id="heroNumber">01</b><span></span><small id="heroLocation">THE
+            HIMALAYAS, INDIA</small><button class="hero-arrow" id="heroNext" aria-label="Next featured destination"><i
+              class="bi bi-arrow-right"></i></button></div>
+        <div class="hero-dots" id="heroDots" aria-label="Choose featured slide"><button class="active"
+            aria-label="Slide 1" data-slide="0"></button><button aria-label="Slide 2" data-slide="1"></button><button
+            aria-label="Slide 3" data-slide="2"></button><button aria-label="Slide 4" data-slide="3"></button></div>
+      </div>
+    </section>
+
+    <section class="travel-types section-ivory" id="travel-types">
+      <div class="container">
+        <div class="section-top reveal">
+          <div>
+            <div class="eyebrow"><span></span> EXPLORE BY TRAVEL TYPE</div>
+            <h2>Find your perfect <em>journey.</em></h2>
+          </div>
+          <p>Choose the feeling you’re travelling for. We’ll help you start planning the details.</p>
+        </div>
+        <div class="travel-grid">
+          <a class="travel-card tilt-card" href="#plan-trip" data-destination="Kedarnath">
+            <div class="travel-photo photo-temple"></div>
+            <div class="travel-card-shade"></div><span class="round-icon"><i
+                class="bi bi-brightness-alt-high"></i></span>
+            <div class="travel-card-title"><span>Spiritual Journeys</span><i class="bi bi-arrow-up-right"></i></div>
+            <span class="card-index">01 / SACRED TRAILS</span>
+          </a>
+          <a class="travel-card tilt-card" href="#plan-trip" data-destination="Nainital">
+            <div class="travel-photo photo-lake"></div>
+            <div class="travel-card-shade"></div><span class="round-icon"><i class="bi bi-house-heart"></i></span>
+            <div class="travel-card-title"><span>Hill Station Holidays</span><i class="bi bi-arrow-up-right"></i></div>
+            <span class="card-index">02 / SLOW ESCAPES</span>
+          </a>
+          <a class="travel-card tilt-card" href="#plan-trip" data-destination="Auli">
+            <div class="travel-photo photo-snow"></div>
+            <div class="travel-card-shade"></div><span class="round-icon"><i class="bi bi-mountains"></i></span>
+            <div class="travel-card-title"><span>Nature & Adventure</span><i class="bi bi-arrow-up-right"></i></div>
+            <span class="card-index">03 / WILD OUTDOORS</span>
+          </a>
+          <a class="travel-card tilt-card" href="#plan-trip" data-destination="Pauri Garhwal">
+            <div class="travel-photo photo-homestay"></div>
+            <div class="travel-card-shade"></div><span class="round-icon"><i class="bi bi-tree"></i></span>
+            <div class="travel-card-title"><span>Local Stays & Culture</span><i class="bi bi-arrow-up-right"></i></div>
+            <span class="card-index">04 / LOCAL STORIES</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="destinations-section section-ivory" id="destinations">
+      <div class="container">
+        <div class="destination-layout">
+          <div class="destination-intro reveal">
+            <div class="eyebrow"><span></span> PLACES TO REMEMBER</div>
+            <h2>Explore Uttarakhand’s <em>iconic places.</em></h2>
+            <p>From sacred shrines to serene lakes, discover destinations that make Uttarakhand unforgettable.</p><a
+              href="destinations.html" class="btn btn-forest">Explore all destinations <i
+                class="bi bi-arrow-right ms-2"></i></a>
+            <div class="destination-decoration">PAHAD TRIALS — The Spirit of the Mountains<br><i>Pahad is not just a
+                place. It is an identity, a culture, and a way of life.</i></div>
+          </div>
+          <div class="destination-cards">
+            <article class="destination-card reveal">
+              <div class="destination-img dest-kedarnath"><span class="destination-label">Pilgrimage</span></div>
+              <div class="destination-info">
+                <div class="place-name"><i class="bi bi-geo-alt-fill"></i>
+                  <h3>Kedarnath</h3>
+                </div>
+                <p>A sacred journey to one of the holiest shrines in India.</p><span class="best-for"><i
+                    class="bi bi-people"></i> Pilgrims & spiritual seekers</span><a href="destination-kedarnath.html"
+                  class="destination-link" data-destination="Kedarnath">Explore destination <i
+                    class="bi bi-arrow-right"></i></a>
+              </div>
+            </article>
+            <article class="destination-card reveal">
+              <div class="destination-img dest-nainital"><span class="destination-label">Lake escape</span></div>
+              <div class="destination-info">
+                <div class="place-name"><i class="bi bi-geo-alt-fill"></i>
+                  <h3>Nainital</h3>
+                </div>
+                <p>A charming hill station with a picturesque lake.</p><span class="best-for"><i
+                    class="bi bi-heart"></i> Families & couples</span><a href="destination-nainital.html"
+                  class="destination-link" data-destination="Nainital">Explore destination <i
+                    class="bi bi-arrow-right"></i></a>
+              </div>
+            </article>
+            <article class="destination-card reveal">
+              <div class="destination-img dest-auli"><span class="destination-label">Snow escape</span></div>
+              <div class="destination-info">
+                <div class="place-name"><i class="bi bi-geo-alt-fill"></i>
+                  <h3>Auli</h3>
+                </div>
+                <p>Snowy slopes and breathtaking Himalayan views.</p><span class="best-for"><i
+                    class="bi bi-backpack"></i> Adventure seekers</span><a href="destination-auli.html"
+                  class="destination-link" data-destination="Auli">Explore destination <i
+                    class="bi bi-arrow-right"></i></a>
+              </div>
+            </article>
+            <article class="destination-card reveal">
+              <div class="destination-img dest-rishikesh"><span class="destination-label">River & wellness</span></div>
+              <div class="destination-info">
+                <div class="place-name"><i class="bi bi-geo-alt-fill"></i>
+                  <h3>Rishikesh</h3>
+                </div>
+                <p>Yoga, riverside evenings and the spirit of the Ganges.</p><span class="best-for"><i
+                    class="bi bi-flower1"></i> Wellness & adventure</span><a href="destination-rishikesh.html"
+                  class="destination-link" data-destination="Rishikesh">Explore destination <i
+                    class="bi bi-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="story-section">
+      <div class="story-backdrop"></div>
+      <div class="container story-content reveal">
+        <div class="eyebrow eyebrow-light"><span></span> THE ART OF TRAVELLING SLOW</div>
+        <h2>Come for the views.<br><em>Leave with a story.</em></h2>
+        <p>Quiet forests, winding mountain roads, old temples and welcoming local communities. Your Uttarakhand journey
+          can be as adventurous or as unhurried as you want it to be.</p><a class="btn btn-gold" href="#plan-trip">Tell
+          us what you’re dreaming of <i class="bi bi-arrow-up-right ms-2"></i></a>
+      </div>
+      <div class="story-stamp" aria-hidden="true"><span>PAHADI TRAILS</span><i class="bi bi-compass"></i><small>FIND
+          YOUR NORTH</small></div>
+    </section>
+
+    <section class="how-section section-ivory" id="how-it-works">
+      <div class="container">
+        <div class="section-top centered reveal">
+          <div>
+            <div class="eyebrow"><span></span> A CLEARER WAY TO PLAN</div>
+            <h2>Simple steps to your <em>dream trip.</em></h2>
+          </div>
+          <p>Start with an idea. Let the right local provider help with the details.</p>
+        </div>
+        <div class="steps-grid">
+          <div class="step reveal">
+            <div class="step-head"><span>01</span><i class="bi bi-chat-square-heart"></i></div>
+            <h3>Tell us about your trip</h3>
+            <p>Share your preferences, dates and travel details.</p>
+          </div>
+          <div class="step-connector"><i class="bi bi-arrow-right"></i></div>
+          <div class="step reveal">
+            <div class="step-head"><span>02</span><i class="bi bi-signpost-2"></i></div>
+            <h3>Connect with a local provider</h3>
+            <p>With your consent, your enquiry can be shared with a suitable provider.</p>
+          </div>
+          <div class="step-connector"><i class="bi bi-arrow-right"></i></div>
+          <div class="step reveal">
+            <div class="step-head"><span>03</span><i class="bi bi-calendar2-check"></i></div>
+            <h3>Confirm the details</h3>
+            <p>The provider confirms the itinerary, price and availability directly.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="enquiry-section" id="plan-trip">
+      <div class="container enquiry-layout">
+        <div class="enquiry-copy reveal">
+          <div class="eyebrow eyebrow-light"><span></span> YOUR NEXT CHAPTER</div>
+          <h2>Plan your <em>Uttarakhand</em> trip.</h2>
+          <p>Tell us a little about your travel plans. We’ll prepare a clear enquiry summary you can send to your chosen
+            contact channel.</p>
+          <div class="enquiry-assurance"><i class="bi bi-shield-check"></i><span><b>Your details matter</b><small>Your
+                information should only be shared with a travel provider with your consent.</small></span></div>
+          <div class="enquiry-contact-card"><b><i class="bi bi-geo-alt me-2"></i>Haridwar, Uttarakhand, India</b><a
+              href="tel:+911234567890"><i class="bi bi-telephone me-2"></i>+91 12345 67890</a><a
+              href="mailto:hello@pahaditrails.example"><i
+                class="bi bi-envelope me-2"></i>hello@pahaditrails.example</a></div>
+          <div class="enquiry-note"><i class="bi bi-info-circle"></i> Enquiries are not bookings. All arrangements
+            require provider confirmation.</div>
+        </div>
+        <form class="enquiry-form reveal" id="tripForm">
+          <div class="form-top"><span class="form-kicker">QUICK ENQUIRY</span><span class="form-count"><i
+                class="bi bi-stars"></i> Let’s get started</span></div>
+          <h3>Tell us what you have in mind.</h3>
+          <p class="form-intro">A few details will help shape your enquiry.</p>
+          <div class="row g-3">
+            <div class="col-md-6"><label for="name" class="form-label">Your name *</label><input class="form-control"
+                id="name" name="name" required maxlength="80" autocomplete="name" placeholder="Full name"></div>
+            <div class="col-md-6"><label for="phone" class="form-label">Phone with country code *</label><input
+                class="form-control" id="phone" name="phone" type="tel" required maxlength="25" autocomplete="tel"
+                placeholder="e.g. +91…"></div>
+            <div class="col-md-6"><label for="email" class="form-label">Email address *</label><input
+                class="form-control" id="email" name="email" type="email" required maxlength="254" autocomplete="email"
+                placeholder="you@example.com"></div>
+            <div class="col-md-6"><label for="destination" class="form-label">Destination *</label><select
+                class="form-select" id="destination" name="destination" required>
+                <option value="">Select destination</option>
+                <option>Kedarnath</option>
+                <option>Badrinath</option>
+                <option>Haridwar</option>
+                <option>Rishikesh</option>
+                <option>Nainital</option>
+                <option>Mussoorie</option>
+                <option>Lansdowne</option>
+                <option>Auli</option>
+                <option>Chopta</option>
+                <option>Pauri Garhwal</option>
+                <option>Multiple destinations</option>
+                <option>Not sure yet</option>
+              </select></div>
+            <div class="col-md-6"><label for="date" class="form-label">Preferred travel date</label><input
+                class="form-control" id="date" name="date" type="date"></div>
+            <div class="col-md-6"><label for="travellers" class="form-label">Number of travellers *</label><select
+                class="form-select" id="travellers" name="travellers" required>
+                <option value="">Select group size</option>
+                <option>1 person</option>
+                <option>2–4 people</option>
+                <option>5–8 people</option>
+                <option>9+ people</option>
+              </select></div>
+            <div class="col-md-6"><label for="duration" class="form-label">Trip duration</label><select
+                class="form-select" id="duration" name="duration">
+                <option value="">Select duration</option>
+                <option>1–3 days</option>
+                <option>4–7 days</option>
+                <option>8–12 days</option>
+                <option>12+ days</option>
+                <option>Flexible</option>
+              </select></div>
+            <div class="col-md-6"><label for="budget" class="form-label">Budget per person</label><select
+                class="form-select" id="budget" name="budget">
+                <option value="">Select budget (INR)</option>
+                <option>Under ₹10,000</option>
+                <option>₹10,000–₹15,000</option>
+                <option>₹15,000–₹30,000</option>
+                <option>₹30,000+</option>
+                <option>Need advice</option>
+              </select></div>
+            <div class="col-md-6"><label for="service" class="form-label">What do you need?</label><select
+                class="form-select" id="service" name="service">
+                <option>Complete trip arrangement</option>
+                <option>Hotel / homestay</option>
+                <option>Transport</option>
+                <option>Local guide / experiences</option>
+                <option>Itinerary advice</option>
+              </select></div>
+            <div class="col-12"><label for="notes" class="form-label">Additional requirements</label><textarea
+                class="form-control" id="notes" name="notes" rows="2" maxlength="1000"
+                placeholder="Tell us more (optional)"></textarea></div>
+            <div class="col-12">
+              <div class="form-check"><input class="form-check-input" type="checkbox" id="consent" name="consent"
+                  required><label class="form-check-label" for="consent">I consent to sharing my enquiry details with a
+                  suitable travel provider to respond to my request. *</label></div>
+            </div>
+            <div class="col-12"><button class="btn btn-gold w-100 btn-lg" type="submit">Prepare my enquiry <i
+                  class="bi bi-send ms-2"></i></button></div>
+          </div>
+          <div id="formResult" class="alert alert-success mt-3 d-none" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+  <button class="back-top" id="backTop" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/media.js"></script>
+  <script src="script.js"></script>
+  <script src="enhancements.js" defer></script>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="d-flex flex-column flex-lg-row justify-content-between gap-4">
+        <div><a class="brand" href="index.html"><span class="brand-symbol">⌁</span><span>Pahadi
+              <b>Trails</b><small>DISCOVER UTTARAKHAND</small></span></a>
+          <p class="mt-3 small" style="max-width:360px">A travel discovery and referral platform. Trip prices,
+            availability and arrangements are confirmed by the selected provider.</p>
+        </div>
+        <div class="footer-links"><a href="about.html">About Us</a><a href="destinations.html">Destinations</a><a
+            href="packages.html">Tour Packages</a><a href="adventure.html">Adventure</a><a href="char-dham.html">Char
+            Dham Yatra</a><a href="trekking.html">Trekking</a><a href="wildlife.html">Wildlife</a><a
+            href="stays.html">Hotels & Stays</a><a href="blog.html">Travel Guide</a><a href="gallery.html">Gallery</a><a
+            href="map.html">3D Map</a><a href="contact.html">Contact</a><a href="faqs.html">FAQs</a><a
+            href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div>
+      </div>
+      <hr style="border-color:#ffffff24"><small>© <span id="year"></span> Pahadi Trails. Verify local conditions before
+        travel.</small>
+    </div>
+  </footer>
+  <script src="config.js"></script>
+  <script src="chat-widget.js" defer></script>
+</body>
+
+</html>
